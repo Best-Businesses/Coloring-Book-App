@@ -26,10 +26,7 @@ Settings → Pages.
 
 ## One-time setup remaining
 
-1. Drop the real Web app config into `js/firebase-config.js` (replace the
-   `REPLACE_WITH_*` placeholders) — from Firebase Console → `bolf-cba` →
-   Project settings → General → Your apps → Web app → SDK setup and configuration.
-2. Enable GitHub Pages for this repo (Settings → Pages → Source: `main` branch, `/ (root)`).
-3. Once the Pages URL is live, add it under Firebase Console → `bolf-cba` →
+1. Enable GitHub Pages for this repo (Settings → Pages → Source: `main` branch, `/ (root)`).
+2. Once the Pages URL is live, add it under Firebase Console → `bolf-cba` →
    Authentication → Settings → Authorized domains (it isn't there yet — the
    site wasn't live yet when the project was created).

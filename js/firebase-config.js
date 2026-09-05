@@ -7,15 +7,12 @@
 // Firebase project: BOLF-CBA (bolf-cba, project number 609583859792).
 // Hosting is GitHub Pages only — no Firebase Hosting for this project.
 //
-// TODO: Replace these placeholders with the values from the Web app just
-// registered in that project: Firebase Console -> Project settings ->
-// General -> "Your apps" -> Web app -> SDK setup and configuration -> Config.
 export const firebaseConfig = {
-  apiKey: "REPLACE_WITH_API_KEY",
+  apiKey: "AIzaSyBTMFazwX7BpbD_nc1c9iaAMTTTSEyzfZk",
   authDomain: "bolf-cba.firebaseapp.com",
   projectId: "bolf-cba",
-  storageBucket: "REPLACE_WITH_STORAGE_BUCKET",
+  storageBucket: "bolf-cba.firebasestorage.app",
   messagingSenderId: "609583859792",
-  appId: "REPLACE_WITH_APP_ID",
-  measurementId: "REPLACE_WITH_MEASUREMENT_ID_IF_PRESENT"
+  appId: "1:609583859792:web:aaff3535782dd3df1ae955",
+  measurementId: "G-PXLMF3B3JK"
 };
