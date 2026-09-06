@@ -1,0 +1,22 @@
+{
+  "name": "Artistic Coloring Studio",
+  "short_name": "Coloring Studio",
+  "description": "Thanks for checking out our new coloring book app! We hope you enjoy it and have fun coloring. God bless you and have a great day!",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#0f2027",
+  "theme_color": "#667eea",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
