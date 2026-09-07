@@ -17,6 +17,22 @@ Settings → Pages.
 - `js/firebase-config.js` — Firebase project config (public client identifier, safe to commit).
 - `js/firebase-auth.js` — Google sign-in via Firebase Authentication.
 
+## Coloring page sections
+
+`imageLibrary` in `index.html` holds one array per section button:
+
+1. Animals — `TitanBusinessPros/KCF-Animals`
+2. Action — `TitanBusinessPros/KCF-Cars-Trucks`
+3. Bible Stories — placeholder/BOLF-specific section (differs from the Titan fork's "Fantasy")
+4. Holidays — `TitanBusinessPros/KCF-Holidays`
+5. Foods — `TitanBusinessPros/CBA-CBP`, `Food/` folder
+6. Professions — `TitanBusinessPros/CBA-CBP`, `Professions/` folder
+
+Sections 5 and 6 mirror the same two sections added to the Titan Business Pros
+fork, sourced from the same shared `CBA-CBP` repo. Each image is referenced by
+a public `raw.githubusercontent.com` URL (via the `github.com/.../raw/main/...`
+redirect form) — no images are committed into this repo itself.
+
 ## Firebase project
 
 - **Project name:** BOLF-CBA
